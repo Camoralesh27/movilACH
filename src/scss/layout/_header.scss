@@ -125,6 +125,53 @@
     }
 }
 
+/* dropdown */
+.nav__links-dropdown {
+    position: relative;
+
+    .nav__dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        background-color: v.$white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+        border-radius: .5rem;
+        z-index: 99;
+        min-width: 220px;
+
+        li {
+            padding: .5rem 1.5rem;
+
+            a {
+                color: v.$black;
+                font-weight: 500;
+                display: block;
+                transition: background-color 0.2s ease;
+                padding-left: 1rem;
+
+                &:hover {
+                    background-color: v.$yellow-2;
+                    border-radius: .5rem;
+                    color: v.$black;
+                }
+            }
+        }
+    }
+
+    &:hover .nav__dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);   
+    }
+}
+
+
+
 /* ======= MOBILE ======= */
 .navM {
     height: 7rem;
@@ -171,7 +218,7 @@
             color: v.$black;
             font-weight: 600;
             text-transform: uppercase;
-            font-size: 1.7rem;
+            /* font-size: 1.7rem; */
             font-family: v.$heading-font;
             line-height: 3rem;
             text-align: center;
@@ -273,6 +320,57 @@
         }
     }
 }
+
+/* agregado extra dropdown */
+.navM__dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-toggle {
+        background: none;
+        border: none;
+        color: v.$black;
+        font-weight: 600;
+        font-family: v.$body-font;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+        /* font-size: 1.6rem; */
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+            color: v.$yellow-2;
+            transform: scale(1.05);
+        }
+    }
+
+    &-menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease, opacity 0.3s ease;
+        opacity: 0;
+        flex-direction: column;
+
+        a {
+            text-align: center;
+        }
+    }
+
+    &.active .navM__dropdown-menu {
+        max-height: 300px; // suficiente para mostrar los 4 enlaces
+        opacity: 1;
+        background-color: v.$white;
+        max-width: 22rem;
+        border-radius: 1rem;
+        box-shadow: v.$box-shadow;
+    }
+}
+/* fin agregado extra */
 
 .show-menu {
     opacity: 1;

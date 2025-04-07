@@ -4,20 +4,35 @@ const showMenu = (toggleId, navId) => {
         nav = document.getElementById(navId);
 
     toggle.addEventListener('click', () => {
-        // Add show-menu class to nav menu
         nav.classList.toggle('show-menu');
-        // Add show-icon to show and hide menu icon
         toggle.classList.toggle('show-icon');
     });
 
-    // Close menu when clicking on any nav link
+    const dropdownToggle = document.querySelector('.navM__dropdown-toggle');
+    const dropdownParent = document.querySelector('.navM__dropdown');
+
+    // Cierra menú al hacer clic en cualquier link que NO sea el botón de dropdown
     const navLinks = document.querySelectorAll(`#${navId} .navM__link`);
     navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            nav.classList.remove('show-menu');
-            toggle.classList.remove('show-icon');
+        link.addEventListener('click', (e) => {
+            // Si NO es el botón del dropdown, cierra menú y dropdown
+            if (!link.classList.contains('navM__dropdown-toggle')) {
+                nav.classList.remove('show-menu');
+                toggle.classList.remove('show-icon');
+                if (dropdownParent.classList.contains('active')) {
+                    dropdownParent.classList.remove('active');
+                }
+            }
         });
     });
+
+    // Activa el dropdown al tocar "Productos"
+    if (dropdownToggle && dropdownParent) {
+        dropdownToggle.addEventListener('click', (e) => {
+            e.preventDefault(); // evita que navegue
+            dropdownParent.classList.toggle('active');
+        });
+    }
 };
 
 showMenu('navM-toggle', 'navM-menu');

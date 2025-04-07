@@ -64,7 +64,18 @@
         <ul class="nav__links">
             <li class="nav__links-item"><a href="#home" class="nav__links-link">Inicio</a></li>
             <li class="nav__links-item"><a href="#nosotros" class="nav__links-link">Nosotros</a></li>
-            <li class="nav__links-item"><a href="#productos" class="nav__links-link">Productos</a></li>
+            <li class="nav__links-item nav__links-dropdown">
+                <a href="#productos" class="nav__links-link">
+                    Productos <i class="bi bi-caret-down-fill"></i>
+                </a>
+                <ul class="nav__dropdown-menu">
+                    <li><a href="oficinas-moviles.html">Oficinas Móviles</a></li>
+                    <li><a href="dormitorios-moviles.html">Dormitorios Móviles</a></li>
+                    <li><a href="edificios-prefabricados.html">Edificios Móviles</a></li>
+                    <li><a href="contenedores.html">Contenedores</a></li>
+                </ul>
+            </li>
+            
             <li class="nav__links-item"><a href="#testimoniales" class="nav__links-link">Reseñas</a></li>
             <li class="nav__links-item"><a href="#contacto" class="nav__links-link">Contacto</a></li>
         </ul>
@@ -100,8 +111,16 @@
                     <a href="#nosotros" class="navM__link">Nosotros</a>
                 </li>
 
-                <li class="navM__item">
-                    <a href="#productos" class="navM__link">Productos</a>
+                <li class="navM__item navM__dropdown">
+                    <button class="navM__link navM__dropdown-toggle">
+                        Productos <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <ul class="navM__dropdown-menu">
+                        <li><a href="#oficinas-moviles" class="navM__link">Oficinas Móviles</a></li>
+                        <li><a href="#dormitorios-moviles" class="navM__link">Dormitorios Móviles</a></li>
+                        <li><a href="#edificios-moviles" class="navM__link">Edificios Móviles</a></li>
+                        <li><a href="#contenedores" class="navM__link">Contenedores</a></li>
+                    </ul>
                 </li>
 
                 <li class="navM__item">
@@ -131,7 +150,7 @@
     <main class="hero">
         <div class="hero__overlay"></div>
         <div class="hero__content">
-            <h1 class="hero__title">OFICINAS MÓVILES A TÚ MEDIDA</h1>
+            <h1 class="hero__title">OFICINAS MÓVILES <span class="hero--yellow"> A TÚ MEDIDA</span></h1>
             <div class="hero__line"></div>
             <p class="hero__subtitle">Soluciones a la medida para tú proyecto ó tú estilo de vida</p>
             <a href="#contacto" class="hero__button">¡Contactanos! <i class="bi bi-arrow-right"></i></a>
@@ -142,13 +161,13 @@
     <section class="nosotros" id="nosotros">
         <div class="nosotros__grid">
             <div class="nosotros__box">
-                    <h2 class="nosotros__heading">Tú solución en Oficinas Móviles Y Edificios Prefabricados</h2>
+                    <h2 class="nosotros__heading">Tú solución en <span class="nosotros--blue"> Oficinas Móviles Y Edificios Prefabricados</span></h2>
                     <div class="nosotros__line"></div>
             </div>
     
             <div class="nosotros__contenido">
                 <p class="nosotros__text">
-                    Somos una empresa Chihuahuense 100% comprometida en brindar un servicio de calidad en la fabricación y venta de oficinas móviles, casetas prefabricadas, espacios modulares y contenedores. Ofrecemos soluciones móviles para trabajos remotos y temporales, garantizando comodidad, seguridad y funcionalidad en cada uno de nuestros productos. 
+                    Somos una empresa Chihuahuense 100% comprometida en brindar un <span class="nosotros--blue">servicio de calidad en la fabricación y venta de oficinas móviles, casetas prefabricadas, espacios modulares y contenedores.</span> Ofrecemos soluciones móviles para trabajos remotos y temporales, garantizando comodidad, seguridad y funcionalidad en cada uno de nuestros productos. 
                 </p>
     
                 <p class="nosotros__text">
@@ -168,7 +187,7 @@
     <!-- ======= features ======= -->
     <section class="features">
         <div class="features__box">
-            <h2 class="features__heading">¡Descubre por qué somos <span class="products__heading--blue"></span> La Mejor Opción!</h2>
+            <h2 class="features__heading">¡Descubre por qué somos <span class="features__heading--blue"> La Mejor Opción!</span></h2>
 
             <div class="features__line"></div>
         </div>
@@ -210,7 +229,7 @@
     <!-- ======= products ======= -->
     <section class="products" id="productos">
         <div class="products__box">
-            <h2 class="products__heading">Nuestros <span class="products__heading--blue"></span> Productos</h2>
+            <h2 class="products__heading">Nuestros <span class="products__heading--blue"> Productos</span></h2>
 
             <div class="products__line"></div>
         </div>
