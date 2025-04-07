@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- -- Meta -- -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- -- Favicon -- -->
+    <link rel="icon" href="./build/img/icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/png" href="./build/img/icon.png">
+
+    <!-- -- Titulo -- -->
+    <title data-section="title" data-value="title">IvetSolutions | Venta de insumos industriales y soluciones en herramientas</title>
+
+    <!-- -- Descripcion -- -->
+    <meta name="description" content="Encuentra el mejor equipo de protección y herramientas industriales en Chihuahua, Chihuahua. Cascos, arneses, guantes, lentes de seguridad y más. Productos certificados para la seguridad en el trabajo. ¡Compra con nosotros!">
+
+
+    <!-- -- Keywords -- -->
+    <meta name="keywords" content="equipo de protección, herramientas industriales, seguridad industrial, equipo de seguridad, cascos de seguridad, guantes de protección, lentes de seguridad, arneses, herramientas eléctricas, equipo de construcción, Chihuahua, México, venta de herramientas, protección laboral, suministros industriales">
+
+
+    <!-- -- Indexacion -- -->
+    <meta name="robots" content="index, follow">
+
+    <!-- -- Iconos -- -->   
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- --- Estilos --- -->
+    <link rel="stylesheet" href="../build/css/app.css">
+
+    <!-- --- Fonts --- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ======= header ======= -->
+    <header class="header" id="home">
+        <!-- header -->
+        <div class="header__info">
+            <div class="header__info-location">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="header__info-location-text">ventas@ivettools.com</p>
+            </div>
+
+            <div class="header__info-phone">
+                <i class="fas fa-phone"></i>
+                <span class="header__info-phone-text"><span>¡Llamanos!</span> <a class="header__info-phone-number" href="tel: +52 (614) 606 4567">(614) 606 4567</a> </span>
+            </div>
+        </div>    
+    </header>
+
+    <!-- ======= nav Desktop ======= -->
+    <nav class="nav">  
+        <div class="nav__logo">
+            <a href="#home" class="nav__logo-link">
+                <img src="./build/img/logo.png" alt="Logo" class="nav__logo-img">
+
+            </a>
+        </div>
+
+        <ul class="nav__links">
+            <li class="nav__links-item"><a href="#home" class="nav__links-link">Inicio</a></li>
+            <li class="nav__links-item"><a href="#productos" class="nav__links-link">Productos</a></li>
+            <li class="nav__links-item"><a href="#testimoniales" class="nav__links-link">Testimoniales</a></li>
+            <li class="nav__links-item"><a href="#contacto" class="nav__links-link">Contacto</a></li>
+        </ul>
+    </nav> 
+
+    <!-- ======= nav Mobile ======= -->
+    <div class="navM">
+        <div class="navM__data">
+            <a class="navM__logo" href="#home">
+                <img class="navM__logo-img" src="./build/img/logo.png" alt="logo">
+            </a>
+
+            <div class="navM__toggle" id="navM-toggle">
+                <i class="fa-solid fa-bars navM__burger"></i>
+                <i class="fa-solid fa-x navM__close"></i>
+            </div>
+        </div>
+
+        <!-- ======= NAV MENU ======= -->
+        <nav class="navM__menu" id="navM-menu">
+            <ul class="navM__list">
+                <li class="navM__item">
+                    <a href="#home" class="navM__link">Inicio</a>
+                </li>
+
+                <li class="navM__item">
+                    <a href="#productos" class="navM__link">Productos</a>
+                </li>
+
+                <li class="navM__item">
+                    <a href="#testimoniales" class="navM__link">Testimoniales</a>
+                </li>
+
+                <li class="navM__item">
+                    <a href="#contacto" class="navM__link">Contacto</a>
+                </li>
+
+                <li class="navM__item">
+                    <a href="#home" target="_blank" class="navM__link">
+                        <i class="fa-brands fa-facebook navM__icon"></i>
+                    </a>
+
+                    <a href="#home" target="_blank" class="navM__link">
+                        <i class="fa-brands fa-instagram navM__icon"></i>
+                    </a>
+                </li>
+            </ul>
+
+            
+        </nav>
+    </div>
+
+    <!-- ======= hero ======= -->
+    <main class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <h1 class="hero__title">Protege tu equipo, eleva tu seguridad</h1>
+            <p class="hero__subtitle">Encuentra las mejores herramientas y equipo de seguridad industrial.</p>
+            <a href="#contacto" class="hero__button">¡Contactanos!</a>
+        </div>
+    </main>
+
+    <!-- ======= features ======= -->
+    <section class="features">
+
+        <div class="features__grid">
+            
+            <div class="feature">   
+                <div class="feature__icon">
+                    <img src="./build/img/icon_save.svg" alt="save" class="feature__icon-img">
+                </div>
+
+                <h3 class="feature__title">Precios 
+                    Competitivos</h3>
+
+                <p class="feature__text">Ofrecer descuentos por volumen y promociones especiales.</p>
+
+            </div>
+
+            <div class="feature">   
+                <div class="feature__icon">
+                    <img src="./build/img/icon_deliver.svg" alt="discount" class="feature__icon-img">
+                </div>
+
+                <h3 class="feature__title">Entrega Express </h3>
+
+                <p class="feature__text">Opciones de entrega el mismo día o en 24 horas en zonas específicas.</p>
+
+            </div>
+
+            <div class="feature">   
+                <div class="feature__icon">
+                    <img src="./build/img/icon_hands.svg" alt="hands" class="feature__icon-img">
+                </div>
+
+                <h3 class="feature__title">Calidad Certificada </h3>
+
+                <p class="feature__text">Los productos cumplen con normas de seguridad nacionales e internacionales (como ANSI, OSHA, NOM).</p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- ======= products ======= -->
+    <section class="products" id="productos">
+        <div class="products__box">
+            <h2 class="products__heading">Nuestros <span class="products__heading--blue"></span> Productos</h2>
+
+            <div class="products__line"></div>
+        </div>
+
+        <div class="products__grid">
+            <a href="oficinas-moviles.html">
+                <div class="product">
+                    <picture class="product__img" >
+                        <source srcset="./build/img/oficinas-moviles.avif" type="image/avif">
+                        <source srcset="./build/img/oficinas-moviles.webp" type="image/webp">
+                        <img src="./build/img/oficinas-moviles.jpg" alt="oficinas moviles" loading="lazy">
+                    </picture>
+
+                    <div class="product__info">
+                        <h3 class="product__title">Oficinas Moviles</h3>
+    
+                        <i class="fa-solid fa-chevron-up product__arrow"></i>
+                    </div>
+                    
+                </div>
+            </a>
+            
+            <a href="dormitorios-moviles.html">
+                <div class="product">
+                    <picture class="product__img" >
+                        <source srcset="./build/img/dormitorios-moviles.avif" type="image/avif">
+                        <source srcset="./build/img/dormitorios-moviles.webp" type="image/webp">
+                        <img src="./build/img/dormitorios-moviles.jpg" alt="dormitorios moviles" loading="lazy">
+                    </picture>
+
+                    
+    
+                    <div class="product__info">
+                        <h3 class="product__title">Dormitorios Moviles</h3>
+    
+                        <i class="fa-solid fa-chevron-up product__arrow"></i>
+                    </div>
+                    
+                </div>
+            </a>  
+            
+            <a href="edificios-prefabricados.html">
+                <div class="product">
+                    <picture class="product__img" >
+                        <source srcset="./build/img/edificios-prefabricados.avif" type="image/avif">
+                        <source srcset="./build/img/edificios-prefabricados.webp" type="image/webp">
+                        <img src="./build/img/edificios-prefabricados.jpg" alt="edificios-prefabricados" loading="lazy">
+                    </picture>
+
+                    
+    
+                    <div class="product__info">
+                        <h3 class="product__title">Edificios Prefabricados</h3>
+    
+                        <i class="fa-solid fa-chevron-up product__arrow"></i>
+                    </div>
+                    
+                </div>
+            </a> 
+
+            <a href="contenedores.html">
+                <div class="product">
+                    <picture class="product__img" >
+                        <source srcset="./build/img/contenedores.avif" type="image/avif">
+                        <source srcset="./build/img/contenedores.webp" type="image/webp">
+                        <img src="./build/img/contenedores.jpg" alt="contenedores" loading="lazy">
+                    </picture>
+
+                    
+    
+                    <div class="product__info">
+                        <h3 class="product__title">Contenedores</h3>
+    
+                        <i class="fa-solid fa-chevron-up product__arrow"></i>
+                    </div>
+                    
+                </div>
+            </a> 
+        </div>
+
+        <div class="products__button">
+            <a href="#contacto" class="products__button-link">¡Cotiza ahora tú proyecto!</a>
+        </div>
+    </section>
+
+    <!-- ======= reviews ======= -->
+    <section class="testimoniales" id="testimoniales">    
+        <div class="testimoniales__box">
+            <h2 class="testimoniales__heading">Lo que nuestros <span class="testimoniales__heading--blue">Clientes</span> dicen</h2>
+
+            <div class="testimoniales__line"></div>
+        </div>
+        
+
+        <div class="testimoniales__grid contenedor">
+            <div class="testimoniales__item">
+                <div class="testimoniales__item-icons">
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                </div>
+
+                <p class="testimoniales__item-text">
+                    "Como empresa dedicada al mantenimiento eléctrico, necesitamos herramientas y equipo de seguridad confiables. Aquí encontramos todo lo que requerimos, desde electrodos y pulidoras hasta arneses certificados. Además, el servicio al cliente es excepcional, siempre atentos a nuestras necesidades. ¡Una gran elección!"
+                </p>
+
+                <div class="testimoniales__item-line"></div>
+
+                <p class="testimoniales__item-author">
+                    Arq. Mariana T.
+                    <span class="testimoniales__item-author-subtitle">Proyectos en energías renovables</span>
+                </p>
+            </div>
+
+            <div class="testimoniales__item">
+                <div class="testimoniales__item-icons">
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                </div>
+
+                <p class="testimoniales__item-text">
+                    “Sus lentes de seguridad y guantes resistentes al calor han sido fundamentales en nuestro taller. Sin duda, son nuestra primera opción cuando se trata de seguridad industrial y herramientas especializadas."
+                </p>
+
+                <div class="testimoniales__item-line"></div>
+
+                <p class="testimoniales__item-author">
+                    Ing. José Luis M.
+                    <span class="testimoniales__item-author-subtitle">Producción en Metalurgia</span>
+                </p>
+            </div>
+
+            <div class="testimoniales__item">
+                <div class="testimoniales__item-icons">
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                    <i class="fa-solid fa-star testimoniales__item-star"></i>
+                </div>
+
+                <p class="testimoniales__item-text">
+                    “Siempre nos han brindado productos de excelente calidad y precios económicos. Sus cascos, guantes y arneses cumplen con todas las normativas y nos han ayudado a mantener la seguridad en nuestras obras. Además, del excelente servicio y siempre cumplen con los tiempos de entrega. ¡Totalmente recomendados!"
+                </p>
+
+                <div class="testimoniales__item-line"></div>
+
+                <p class="testimoniales__item-author">
+                    Ing. Javier Ramírez
+                    <span class="testimoniales__item-author-subtitle">Supervisor de obra</span>
+                </p>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- ======= contact ======= -->
+    <section class="contact" id="contacto">
+        <div class="contact__overlay"></div>
+
+        <div class="contact__content">
+            <div class="contact__box">
+                <h2 class="contact__heading">Aquí estamos para ti,<br><span class="contact__heading--yellow"> ¡Contactanos!</span></h2>
+    
+                <!-- <div class="contact__line"></div> -->
+    
+                <p class="contact__subtitle">¿Tienes alguna duda sobre nuestros servicios ó solo quieres hablar? 
+                     <br> <span class="contact__subtitle--bold">¡Mandanos un mensaje ó llámanos ahora para ayudarte!</span></p>    
+            </div>
+    
+            <div class="contact__grid contenedor">
+                <div class="contact__item">
+                    <h3 class="contact__title">Ubicación</h3>
+    
+                    <p class="contact__text">Chihuahua, Chih.</p>
+                </div>
+    
+    
+                <div class="contact__item">
+                    <h3 class="contact__title">Contactanos</h3>
+    
+                    <p class="contact__text contact__text--bold">¡Llamanos ahora!</p>
+                    <a class="contact__text" href="tel: +52 (614) 606 4567">(614) 606 4567</a> 
+                    <a class="contact__text" href="tel: +52 (614) 169 9883">(614) 169 9883</a>
+                </div> 
+    
+    
+                <div class="contact__item">
+                    <h3 class="contact__title">Siguenos</h3>
+    
+                    <div class="contact__redes-sociales-grid">
+                        <a class="contact__redes-sociales-link" href="#home" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        
+                        <a class="contact__redes-sociales-link" href="#home" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    
+                </div> 
+            </div>
+
+        </div>
+        
+
+    </section>
+
+    <!-- ======= footer ======= -->
+    <footer class="footer" id="footer">
+        <div class="footer__text">
+            IvetSolutions © <span id="year"></span> - All rights reserved  
+        </div>
+    </footer>
+
+    <!-- ==== boton whatsapp ==== -->
+    <a href="https://wa.me/526146064567" class="whatsapp-button" target="_blank" title="Enviar mensaje por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ==== main JS ==== -->
+    <script src="build/js/app.js"></script>
+
+    <!-- ==== FontAwesome ==== -->
+    <script src="https://kit.fontawesome.com/09c3aa2d96.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
