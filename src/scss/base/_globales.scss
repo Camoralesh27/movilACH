@@ -65,6 +65,16 @@ fieldset {
     margin: 0;
 }
 
+::selection {
+    background: v.$selected;
+    color: v.$white;
+  }
+  
+  ::-moz-selection {
+    background: v.$selected;
+    color: v.$white;
+  }
+
 
 /*==== REUSABLE CSS CLASSES ====*/
 .contenedor {

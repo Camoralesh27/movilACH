@@ -1,11 +1,8 @@
 // FUENTE
-    /* Google fonts */
-    /* @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
-
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
     $heading-font: "Poppins", serif;
-    $body-font:  "Roboto", serif;
-    $logo-font: "Alumni Sans", sans-serif; 
+    $body-font:  "Roboto", serif; 
 
 //FONT SIZE
     $h1-font-size: 5.6rem;
@@ -43,12 +40,14 @@
     $gray-1: #F2F2F2;
     $gray-2: #DBDBDB;
     $gray-3: #BEBEBE;
-    $gray-4: #919191;
+    $gray-4: #2A2A2A;
     $shadow: rgba(31, 31, 31, 0.75);
     $background: #252525;
     $blue-background: rgba(1, 40, 64, 0.70);
     $black: #2A2A2A;
     $white: #FFFFFF;
+    $selected: #aaaaaa;
+
     /* $white-2: #F3F3F3; */
 
     $white-transparent: rgba(243, 243, 243, 0.7);
