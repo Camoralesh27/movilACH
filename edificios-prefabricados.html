@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- -- Meta -- -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- -- Favicon -- -->
+    <link rel="icon" href="./build/img/icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/png" href="./build/img/icon.png">
+
+    <!-- -- Titulo -- -->
+    <title data-section="title" data-value="title">Móvil ACH | Venta de Oficinas Móviles en México</title>
+
+    <!-- -- Descripcion -- -->
+    <meta name="description" content="Venta de Oficinas móviles personalizadas en México. Fabricamos espacios portátiles de trabajo ideales para proyectos temporales y trabajo remoto. Envíos a toda la República. Comodidad, seguridad, calidad al mejor precio.">
+
+    <!-- -- Keywords -- -->
+    <meta name="keywords" content="oficinas móviles, oficinas móviles México, oficinas móviles Chihuahua, oficinas móviles personalizadas, espacios portátiles de trabajo, oficinas para trabajo remoto, oficinas temporales, fabricación de oficinas móviles, oficinas móviles a medida, oficinas móviles para eventos, oficinas móviles económicas, Móvil ACH">
+
+    <!-- -- Canonical -- -->
+    <link rel="canonical" href="https://movilach.com/oficinas-moviles.html" />
+
+    <!-- -- Indexacion -- -->
+    <meta name="robots" content="index, follow">
+
+    <!-- -- Iconos -- -->   
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- --- Estilos --- -->
+    <link rel="stylesheet" href="../build/css/app.css">
+
+    
+</head>
+<body>
+    <!-- ======= header ======= -->
+    <header class="header" id="home">
+        <!-- header -->
+        <div class="header__info">
+            <div class="header__info-location">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="header__info-location-text">info@movilach.com</p>
+            </div>
+
+            <div class="header__info-phone">
+                <i class="fas fa-phone"></i>
+                <span class="header__info-phone-text"><span>¡Llamanos ahora!</span> <a class="header__info-phone-number" href="tel: +54 614 243 1521">614 243 1521</a> </span>
+            </div>
+        </div>    
+    </header>
+
+    <!-- ======= nav Desktop ======= -->
+    <nav class="nav">  
+        <div class="nav__logo">
+            <a href="#home" class="nav__logo-link">
+                <img src="./build/img/logo.png" alt="Logo" class="nav__logo-img">
+
+            </a>
+        </div>
+
+        <ul class="nav__links">
+            <li class="nav__links-item"><a href="#home" class="nav__links-link">Inicio</a></li>
+            <li class="nav__links-item"><a href="#nosotros" class="nav__links-link">Nosotros</a></li>
+            <li class="nav__links-item nav__links-dropdown">
+                <a href="#productos" class="nav__links-link">
+                    Productos <i class="bi bi-caret-down-fill"></i>
+                </a>
+                <ul class="nav__dropdown-menu">
+                    <li><a href="oficinas-moviles.html">Oficinas Móviles</a></li>
+                    <li><a href="dormitorios-moviles.html">Dormitorios Móviles</a></li>
+                    <li><a href="edificios-prefabricados.html">Edificios Móviles</a></li>
+                    <li><a href="contenedores.html">Contenedores</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav__links-item"><a href="#testimoniales" class="nav__links-link">Reseñas</a></li>
+            <li class="nav__links-item"><a href="#contacto" class="nav__links-link">Contacto</a></li>
+        </ul>
+
+        <a href="index.html#contacto" class="nav__button">
+            ¡Estimación GRATIS!
+
+            <i class="bi bi-arrow-right"></i>
+        </a>
+    </nav> 
+
+    <!-- ======= nav Mobile ======= -->
+    <div class="navM">
+        <div class="navM__data">
+            <a class="navM__logo" href="#home">
+                <img class="navM__logo-img" src="./build/img/logo.png" alt="logo">
+            </a>
+
+            <div class="navM__toggle" id="navM-toggle">
+                <i class="fa-solid fa-bars navM__burger"></i>
+                <i class="fa-solid fa-x navM__close"></i>
+            </div>
+        </div>
+
+        <!-- ======= NAV MENU ======= -->
+        <nav class="navM__menu" id="navM-menu">
+            <ul class="navM__list">
+                <li class="navM__item">
+                    <a href="#home" class="navM__link">Inicio</a>
+                </li>
+
+                <li class="navM__item">
+                    <a href="#nosotros" class="navM__link">Nosotros</a>
+                </li>
+
+                <li class="navM__item navM__dropdown">
+                    <button class="navM__link navM__dropdown-toggle">
+                        Productos <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <ul class="navM__dropdown-menu">
+                        <li><a href="#oficinas-moviles" class="navM__link">Oficinas Móviles</a></li>
+                        <li><a href="#dormitorios-moviles" class="navM__link">Dormitorios Móviles</a></li>
+                        <li><a href="#edificios-moviles" class="navM__link">Edificios Móviles</a></li>
+                        <li><a href="#contenedores" class="navM__link">Contenedores</a></li>
+                    </ul>
+                </li>
+
+                <li class="navM__item">
+                    <a href="#testimoniales" class="navM__link">Reseñas</a>
+                </li>
+
+                <li class="navM__item">
+                    <a href="#contacto" class="navM__link">Contacto</a>
+                </li>
+
+                <li class="navM__item">
+                    <a href="index.html#home" target="_blank" class="navM__link">
+                        <i class="fa-brands fa-facebook navM__icon"></i>
+                    </a>
+
+                    <a href="index.html#home" target="_blank" class="navM__link">
+                        <i class="fa-brands fa-instagram navM__icon"></i>
+                    </a>
+                </li>
+            </ul>
+
+            
+        </nav>
+    </div>
+
+    <!-- ======= hero ======= -->
+    <main class="hero-edificios">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <h1 class="hero__title">Venta de <span class="hero--yellow"> Oficinas Móviles</span></h1>
+            <div class="hero__line"></div>
+            <p class="hero__subtitle">Oficinas móviles diseñadas para las necesidades de tú proyecto</p>
+            <a href="#contacto" class="hero__button">¡Contacta a un asesor! <i class="bi bi-arrow-right"></i></a>
+        </div>
+    </main>
+
+    <!-- ======= Nosotros ======= -->
+    <section class="nosotros" id="nosotros">
+        <div class="nosotros__grid">
+            <div class="nosotros__box">
+                    <h2 class="nosotros__heading">Venta de 
+                          <span class="nosotros--blue">Oficinas Móviles en México</span></h2>
+                    <div class="nosotros__line"></div>
+            </div>
+    
+            <div class="nosotros__contenido">
+                <p class="nosotros__text">
+                    Diseñadas para brindar comodidad, seguridad y funcionalidad en cualquier ubicación. Ya sea para proyectos de construcción, eventos, minería o cualquier industria que requiera espacios de trabajo temporales, nuestras oficinas móviles son la solución ideal.
+                    <br>
+                    <br>
+                    
+                    <b>Características de Nuestras Oficinas Móviles:</b>
+
+                    <ul>
+                        <li>✅ Diseño Versátil: Espacios adaptables a tus necesidades, desde oficinas ejecutivas hasta salas de reuniones y módulos administrativos.</li>
+
+                        <li>✅ Construcción Resistente: Fabricadas con materiales de alta calidad, ideales para soportar las condiciones climáticas de Chihuahua.</li>
+
+                        <li>✅ Equipamiento Completo: Disponibles con aire acondicionado, iluminación, instalaciones eléctricas y mobiliario según tus requerimientos.</li>
+
+                        <li>✅ Fácil Transporte e Instalación: Solución lista para usar en cualquier punto del estado.
+                        </li>
+
+                        <li>✅ Seguridad Garantizada: Opciones con cerraduras reforzadas y ventanas con protecciones.
+                        </li>
+                    </ul>
+                    
+                    
+                    
+                    </p>
+    
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- ======= Gallery ======= -->
+    <section class="gallery contenedor" id="gallery">
+        <div class="gallery__box">
+            <h2 class="gallery__heading">Galería</h2>
+
+            <div class="gallery__line"></div>
+        </div>
+
+
+        <div class="gallery__grid">
+                <div class="gallery__item">
+                    <picture class="gallery__item-img">
+                        <source srcset="./build/img/herramientas-1.avif" type="image/avif">
+                        <source srcset="./build/img/herramientas-1.webp" type="image/webp">
+                        <img src="./build/img/herramientas-1.jpg" alt="herramientas" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="gallery__item">
+                    <picture class="gallery__item-img">
+                        <source srcset="./build/img/herramientas-2.avif" type="image/avif">
+                        <source srcset="./build/img/herramientas-2.webp" type="image/webp">
+                        <img src="./build/img/herramientas-2.jpg" alt="herramientas" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="gallery__item">
+                    <picture class="gallery__item-img">
+                        <source srcset="./build/img/herramientas-3.avif" type="image/avif">
+                        <source srcset="./build/img/herramientas-3.webp" type="image/webp">
+                        <img src="./build/img/herramientas-3.jpg" alt="herramientas" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="gallery__item">
+                    <picture class="gallery__item-img">
+                        <source srcset="./build/img/herramientas-4.avif" type="image/avif">
+                        <source srcset="./build/img/herramientas-4.webp" type="image/webp">
+                        <img src="./build/img/herramientas-4.jpg" alt="herramientas" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="gallery__item">
+                    <picture class="gallery__item-img">
+                        <source srcset="./build/img/herramientas-5.avif" type="image/avif">
+                        <source srcset="./build/img/herramientas-5.webp" type="image/webp">
+                        <img src="./build/img/herramientas-5.jpg" alt="herramientas" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="gallery__item">
+                    <picture class="gallery__item-img">
+                        <source srcset="./build/img/herramientas-6.avif" type="image/avif">
+                        <source srcset="./build/img/herramientas-6.webp" type="image/webp">
+                        <img src="./build/img/herramientas-6.jpg" alt="herramientas" loading="lazy">
+                    </picture>
+                </div>
+        </div>     
+        
+
+        <a href="#contacto" class="hero__button">¡Contactanos! <i class="bi bi-arrow-right"></i></a>
+    </section>
+    
+
+
+
+    <!-- ======= footer ======= -->
+    <footer class="footer" id="footer">
+        <div class="footer__text">
+            Movil ACH Oficinas Móviles © <span id="year"></span> - Todos los derechos reservados  
+        </div>
+    </footer>
+
+    <!-- ==== boton whatsapp ==== -->
+    <a href="https://wa.me/526144953782" class="whatsapp-button" target="_blank" title="Enviar mensaje por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ==== main JS ==== -->
+    <script src="build/js/app.js"></script>
+
+    <!-- ==== FontAwesome ==== -->
+    <script src="https://kit.fontawesome.com/09c3aa2d96.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
