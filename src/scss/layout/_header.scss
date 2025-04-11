@@ -142,7 +142,7 @@
         padding: 1rem 0;
         border-radius: .5rem;
         z-index: 99;
-        min-width: 220px;
+        min-width: max-content; /** Ajusta el ancho mínimo según tus necesidades */
 
         li {
             padding: .5rem 1.5rem;
