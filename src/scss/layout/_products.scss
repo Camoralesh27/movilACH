@@ -41,8 +41,11 @@
     box-shadow: v.$box-shadow;
     border-radius: v.$border-radius;
     overflow: hidden;
+    transition: all .3s;
     
-
+    &:hover {
+        transform: scale(1.02);
+    }
 
 
     @include m.phone {
