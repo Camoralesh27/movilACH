@@ -19,6 +19,8 @@
 
         @include m.phone {
             grid-template-columns: 1fr;
+            padding: 2rem;
+            width: 90%;
         }
     }
 
@@ -30,6 +32,11 @@
 
     &__heading {
         text-align: start;
+
+        @include m.phone {
+            text-align: center;
+            font-size: 4rem;
+        }
     }
 
     &__line {

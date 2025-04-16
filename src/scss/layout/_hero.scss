@@ -50,6 +50,11 @@
         color: v.$white;    
         line-height: 7rem;
         text-transform: uppercase;
+
+        @include m.phone {
+            font-size: 4.4rem;
+            line-height: 1.2;
+        }
     }
 
     &__subtitle {

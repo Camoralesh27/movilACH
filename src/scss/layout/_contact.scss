@@ -14,6 +14,12 @@
 
     &__heading {
         color: v.$white;
+        line-height: 1.2;
+
+        @include m.phone {
+            font-size: 4rem;
+            line-height: 1.2;
+        }
     }
 
     &__subtitle {
