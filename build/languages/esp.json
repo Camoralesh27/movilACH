@@ -1,0 +1,74 @@
+{
+    "title": {
+        "title": "Móvil ACH | Oficinas Móviles y Edificios prefabricados en México"
+    },
+    "header": {
+        "call": "¡Llamanos ahora!"
+    },
+    "nav": {
+        "home": "Inicio",
+        "about": "Nosotros",
+        "products": "Productos",
+        "products1": "Oficinas Móviles",
+        "products2": "Dormitorios Móviles",
+        "products3": "Edificios Prefabricados",
+        "products4": "Contenedores",
+        "testimonials": "Reseñas",
+        "contact": "Contacto",
+        "cta": "¡Estimación GRATIS!"
+    },
+    "hero": {
+        "title": "OFICINAS MÓVILES A <span class= 'hero--yellow'> TÚ MEDIDA</span>",
+        "subtitle": "Soluciones a la medida para tú proyecto ó tú estilo de vida",
+        "cta": "¡Contactanos!"
+    },
+    "about": {
+        "heading": "Tú solución en <span class='nosotros--blue'>Oficinas Móviles Y Edificios Prefabricados</span>",
+        "text1": "Somos una empresa Chihuahuense 100% comprometida en brindar un <span class='nosotros--blue'>servicio de calidad en la fabricación y venta de oficinas móviles, casetas prefabricadas, espacios modulares y contenedores.</span> Ofrecemos soluciones móviles para trabajos remotos y temporales, garantizando comodidad, seguridad y funcionalidad en cada uno de nuestros productos.",
+        "text2": "Nos especializamos en la fabricación a medida, adaptándonos a las necesidades específicas de cada cliente.",
+        "text3": "Contamos con envíos a toda la República Mexicana, asegurando rapidez y eficiencia en la entrega."
+    },
+    "features": {
+        "heading": "¡Descubre por qué somos <span class='features__heading--blue'> La Mejor Opción!</span>",
+        "item1": "Soluciones a la Medida y Alta Calidad",
+        "item2": "Entrega en Todo México",
+        "item3": "Garantía, Soporte y Flexibilidad"
+    },
+    "products": {
+        "heading": "Nuestros <span class='products__heading--blue'> Productos</span>",
+        "office": "Oficinas Moviles",
+        "dorm": "Dormitorios Moviles",
+        "buildings": "Edificios Prefabricados",
+        "containers": "Contenedores (Dumpster)",
+        "cta": "¡Cotiza ahora tú proyecto!"
+    },
+    "testimonials": {
+        "heading": "Lo que nuestros <span class='testimoniales__heading--blue'>Clientes dicen</span>",
+        "review1": {
+            "text": "Gracias a la flexibilidad y rapidez de entrega de las oficinas móviles, pudimos iniciar nuestro proyecto de construcción sin retrasos. La calidad y confort de las oficinas hizo que nuestro equipo se sintiera cómodo durante los meses de trabajo. ¡Totalmente recomendados!",
+            "author": "Juan Martínez",
+            "role": "Empresario en Construcción"
+        },
+        "review2": {
+            "text": "Necesitábamos oficinas móviles para organizar un evento en una locación remota. La adaptabilidad de los espacios a nuestras necesidades, desde el aire acondicionado hasta el diseño, fue excelente. El servicio al cliente fue excepcional y la instalación fue en tiempo récord.",
+            "author": "Laura Sánchez",
+            "role": "Gerente de Evento"
+        },
+        "review3": {
+            "text": "Las oficinas móviles que rentamos para nuestro equipo de trabajo en el campo fueron de gran ayuda. Estábamos buscando una opción práctica, funcional y económica. No solo cubrieron nuestras expectativas, sino que el soporte post-venta ha sido increíble.",
+            "author": "Carlos Gómez",
+            "role": "Dueño de Negocio en el Sector Minero"
+        }
+    },
+    "contact": {
+        "heading": "Aquí estamos para ti,<br><span class='contact__heading--yellow'> ¡Contactanos!</span>",
+        "subtitle": "¿Tienes alguna duda sobre nuestros servicios ó solo quieres hablar?<br> <span class='contact__subtitle--bold'>¡Mandanos un mensaje ó llámanos ahora para ayudarte!</span>",
+        "location": "Ubicación",
+        "contact": "Contactanos",
+        "call": "¡Llamanos ahora!",
+        "follow": "Siguenos"
+    },
+    "footer": {
+        "text": "Movil ACH Oficinas Móviles © <span id='year'></span> - Todos los derechos reservados"
+    }
+}

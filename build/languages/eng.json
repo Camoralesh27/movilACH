@@ -1,0 +1,75 @@
+{
+    "title": {
+      "title": "Móvil ACH | Mobile Offices and Prefabricated Buildings in Mexico"
+    },
+    "header": {
+      "call": "Call us now!"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "products": "Products",
+      "products1": "Mobile Offices",
+      "products2": "Mobile Dormitories",
+      "products3": "Prefabricated Buildings",
+      "products4": "Containers",
+      "testimonials": "Testimonials",
+      "contact": "Contact",
+      "cta": "FREE Estimate!"
+    },
+    "hero": {
+      "title": "<span class= 'hero--yellow'>CUSTOM </span> MOBILE OFFICES",
+      "subtitle": "Tailored solutions for your project or lifestyle",
+      "cta": "Contact us!"
+    },
+    "about": {
+      "heading": "Your solution in <span class='nosotros--blue'> Mobile Offices and Prefabricated Buildings</span>",
+      "text1": "We are a 100% Chihuahuan company committed to <span class='nosotros--blue'> providing high-quality service in the manufacturing and sale of mobile offices, prefabricated booths, modular spaces, and containers.</span> We offer mobile solutions for remote and temporary work, ensuring comfort, safety, and functionality in every product.",
+      "text2": "We specialize in custom fabrication, adapting to the specific needs of each client.",
+      "text3": "We ship throughout Mexico, ensuring fast and efficient delivery."
+    },
+    "features": {
+      "heading": "Discover why <span class='features__heading--blue'>we are the Best Option!</span>",
+      "item1": "Custom Solutions and High Quality",
+      "item2": "Nationwide Delivery",
+      "item3": "Warranty, Support, and Flexibility"
+    },
+    "products": {
+      "heading": "Our <span class='products__heading--blue'>Products </span>",
+      "office": "Mobile Offices",
+      "dorm": "Mobile Dormitories",
+      "buildings": "Prefabricated Buildings",
+      "containers": "Containers (Dumpster)",
+      "cta": "Get a quote for your project!"
+    },
+    "testimonials": {
+      "heading": "What our <span class='testimoniales__heading--blue'>Clients say</span>",
+      "review1": {
+        "text": "Thanks to the flexibility and fast delivery of the mobile offices, we were able to start our construction project without delays. The quality and comfort of the offices made our team feel comfortable during the months of work. Highly recommended!",
+        "author": "Juan Martínez",
+        "role": "Construction Business Owner"
+      },
+      "review2": {
+        "text": "We needed mobile offices to organize an event in a remote location. The adaptability of the spaces to our needs, from air conditioning to design, was excellent. Customer service was outstanding and installation was done in record time.",
+        "author": "Laura Sánchez",
+        "role": "Event Manager"
+      },
+      "review3": {
+        "text": "The mobile offices we rented for our field team were extremely helpful. We were looking for a practical, functional, and economical option. Not only did they meet our expectations, but the post-sale support has been incredible.",
+        "author": "Carlos Gómez",
+        "role": "Mining Business Owner"
+      }
+    },
+    "contact": {
+      "heading": "We’re here for you, <br><span class='contact__heading--yellow'>Contact us!</span>",
+      "subtitle": "Do you have questions about our services or just want to talk? <br> <span class='contact__subtitle--bold'>Send us a message or call us now and we’ll help you!</span>",
+      "location": "Location",
+      "contact": "Contact us",
+      "call": "Call us now!",
+      "follow": "Follow us"
+    },
+    "footer": {
+      "text": "Móvil ACH Mobile Offices © <span id='year'></span> - All rights reserved"
+    }
+  }
+  

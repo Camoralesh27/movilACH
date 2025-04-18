@@ -19,7 +19,7 @@
 
         @include m.phone {
             grid-template-columns: 1fr;
-            padding: 2rem;
+            padding: 4rem 1rem;
             width: 90%;
         }
     }

@@ -63,13 +63,35 @@
         <div class="header__info">
             <div class="header__info-location">
                 <i class="fa-solid fa-envelope"></i>
-                <p class="header__info-location-text">info@movilach.com</p>
+                <p class="header__info-location-text">ventas@movilach.com</p>
             </div>
 
-            <div class="header__info-phone">
-                <i class="fas fa-phone"></i>
-                <span class="header__info-phone-text"><span>¡Llamanos ahora!</span> <a class="header__info-phone-number" href="tel: +54 614 243 1521">614 243 1521</a> </span>
+
+            <div class="header__info-right">
+                <div class="header__info-phone">
+                    <i class="fas fa-phone"></i>
+                    <span class="header__info-phone-text"><span data-section="header" data-value="call">¡Llamanos ahora!</span> <a class="header__info-phone-number" href="tel: +54 614 243 1521">614 243 1521</a> </span>
+                </div>
+
+
+                <!-- Change language -->
+                <div>
+                    <input type="checkbox" class="language" name="flags" id="flags" data-language="eng">
+
+                    <div class="language__display">
+                        <label class="language__container" for="flags">
+                            <div class="language__circle">
+                                <img class="language__img esp" src="./build/img/mexFlag.png" alt="Mexico Flag">
+
+                                <img class="language__img eng" src="./build/img/usFlag.png" alt="US Flag">
+                            </div>
+                        </label>
+                    </div>
+                </div>
             </div>
+
+
+
         </div>    
     </header>
 
@@ -83,25 +105,25 @@
         </div>
 
         <ul class="nav__links">
-            <li class="nav__links-item"><a href="index.html#home" class="nav__links-link">Inicio</a></li>
-            <li class="nav__links-item"><a href="index.html#nosotros" class="nav__links-link">Nosotros</a></li>
+            <li class="nav__links-item"><a href="index.html#home" class="nav__links-link" data-section="nav" data-value="home">Inicio</a></li>
+            <li class="nav__links-item"><a href="index.html#nosotros" class="nav__links-link" data-section="nav" data-value="about">Nosotros</a></li>
             <li class="nav__links-item nav__links-dropdown">
-                <a href="index.html#productos" class="nav__links-link">
+                <a href="index.html#productos" class="nav__links-link" data-section="nav" data-value="products">
                     Productos <i class="bi bi-caret-down-fill"></i>
                 </a>
                 <ul class="nav__dropdown-menu">
-                    <li><a href="oficinas-moviles.html">Oficinas Móviles</a></li>
-                    <li><a href="dormitorios-moviles.html">Dormitorios Móviles</a></li>
-                    <li><a href="edificios-prefabricados.html">Edificios Prefabricados</a></li>
-                    <li><a href="contenedores.html">Contenedores</a></li>
+                    <li><a href="oficinas-moviles.html" data-section="nav" data-value="products1">Oficinas Móviles</a></li>
+                    <li><a href="dormitorios-moviles.html" data-section="nav" data-value="products2">Dormitorios Móviles</a></li>
+                    <li><a href="edificios-prefabricados.html" data-section="nav" data-value="products3">Edificios Prefabricados</a></li>
+                    <li><a href="contenedores.html" data-section="nav" data-value="products4">Contenedores</a></li>
                 </ul>
             </li>
             
-            <li class="nav__links-item"><a href="index.html#testimoniales" class="nav__links-link">Reseñas</a></li>
-            <li class="nav__links-item"><a href="index.html#contacto" class="nav__links-link">Contacto</a></li>
+            <li class="nav__links-item"><a href="index.html#testimoniales" class="nav__links-link" data-section="nav" data-value="testimonials">Reseñas</a></li>
+            <li class="nav__links-item"><a href="index.html#contacto" class="nav__links-link" data-section="nav" data-value="contact">Contacto</a></li>
         </ul>
 
-        <a href="index.html#contacto" class="nav__button">
+        <a href="index.html#contacto" class="nav__button" data-section="nav" data-value="cta">
             ¡Estimación GRATIS!
 
             <i class="bi bi-arrow-right"></i>
@@ -125,31 +147,31 @@
         <nav class="navM__menu" id="navM-menu">
             <ul class="navM__list">
                 <li class="navM__item">
-                    <a href="index.html#home" class="navM__link">Inicio</a>
+                    <a href="index.html#home" class="navM__link" data-section="nav" data-value="home">Inicio</a>
                 </li>
 
                 <li class="navM__item">
-                    <a href="index.html#nosotros" class="navM__link">Nosotros</a>
+                    <a href="index.html#nosotros" class="navM__link" data-section="nav" data-value="about">Nosotros</a>
                 </li>
 
                 <li class="navM__item navM__dropdown">
-                    <button class="navM__link navM__dropdown-toggle">
+                    <button class="navM__link navM__dropdown-toggle" data-section="nav" data-value="products">
                         Productos <i class="fa-solid fa-caret-down"></i>
                     </button>
                     <ul class="navM__dropdown-menu">
-                        <li><a href="oficinas-moviles.html" class="navM__link">Oficinas Móviles</a></li>
-                        <li><a href="dormitorios-moviles.html" class="navM__link">Dormitorios Móviles</a></li>
-                        <li><a href="edificios-prefabricados.html" class="navM__link">Edificios Prefabricados</a></li>
-                        <li><a href="contenedores.html" class="navM__link">Contenedores</a></li>
+                        <li><a href="oficinas-moviles.html" class="navM__link" data-section="nav" data-value="products1">Oficinas Móviles</a></li>
+                        <li><a href="dormitorios-moviles.html" class="navM__link" data-section="nav" data-value="products2">Dormitorios Móviles</a></li>
+                        <li><a href="edificios-prefabricados.html" class="navM__link" data-section="nav" data-value="products3">Edificios Prefabricados</a></li>
+                        <li><a href="contenedores.html" class="navM__link" data-section="nav" data-value="products4">Contenedores</a></li>
                     </ul>
                 </li>
 
                 <li class="navM__item">
-                    <a href="index.html#testimoniales" class="navM__link">Reseñas</a>
+                    <a href="index.html#testimoniales" class="navM__link" data-section="nav" data-value="testimonials">Reseñas</a>
                 </li>
 
                 <li class="navM__item">
-                    <a href="index.html#contacto" class="navM__link">Contacto</a>
+                    <a href="index.html#contacto" class="navM__link" data-section="nav" data-value="contact">Contacto</a>
                 </li>
 
                 <li class="navM__item">
@@ -171,10 +193,10 @@
     <main class="hero">
         <div class="hero__overlay"></div>
         <div class="hero__content">
-            <h1 class="hero__title">OFICINAS MÓVILES <span class="hero--yellow"> A TÚ MEDIDA</span></h1>
+            <h1 class="hero__title" data-section="hero" data-value="title">OFICINAS MÓVILES <span class="hero--yellow"> A TÚ MEDIDA</span></h1>
             <div class="hero__line"></div>
-            <p class="hero__subtitle">Soluciones a la medida para tú proyecto ó tú estilo de vida</p>
-            <a href="#contacto" class="hero__button">¡Contactanos! <i class="bi bi-arrow-right"></i></a>
+            <p class="hero__subtitle" data-section="hero" data-value="subtitle">Soluciones a la medida para tú proyecto ó tú estilo de vida</p>
+            <a href="#contacto" class="hero__button" data-section="hero" data-value="cta">¡Contactanos! <i class="bi bi-arrow-right"></i></a>
         </div>
     </main>
 
@@ -182,20 +204,20 @@
     <section class="nosotros" id="nosotros">
         <div class="nosotros__grid">
             <div class="nosotros__box">
-                    <h2 class="nosotros__heading">Tú solución en <span class="nosotros--blue"> Oficinas Móviles Y Edificios Prefabricados</span></h2>
+                    <h2 class="nosotros__heading" data-section="about" data-value="heading">Tú solución en <span class="nosotros--blue"> Oficinas Móviles Y Edificios Prefabricados</span></h2>
                     <div class="nosotros__line"></div>
             </div>
     
             <div class="nosotros__contenido">
-                <p class="nosotros__text">
+                <p class="nosotros__text" data-section="about" data-value="text1">
                     Somos una empresa Chihuahuense 100% comprometida en brindar un <span class="nosotros--blue">servicio de calidad en la fabricación y venta de oficinas móviles, casetas prefabricadas, espacios modulares y contenedores.</span> Ofrecemos soluciones móviles para trabajos remotos y temporales, garantizando comodidad, seguridad y funcionalidad en cada uno de nuestros productos. 
                 </p>
     
-                <p class="nosotros__text">
+                <p class="nosotros__text" data-section="about" data-value="text2">
                     Nos especializamos en la fabricación a medida, adaptándonos a las necesidades específicas de cada cliente. 
                 </p>
     
-                <p class="nosotros__text">
+                <p class="nosotros__text" data-section="about" data-value="text3">
                     Contamos con envíos a toda la República Mexicana, asegurando rapidez y eficiencia en la entrega. 
                 </p>
             </div>
@@ -207,7 +229,7 @@
     <!-- ======= features ======= -->
     <section class="features">
         <div class="features__box">
-            <h2 class="features__heading">¡Descubre por qué somos <span class="features__heading--blue"> La Mejor Opción!</span></h2>
+            <h2 class="features__heading" data-section="features" data-value="heading">¡Descubre por qué somos <span class="features__heading--blue"> La Mejor Opción!</span></h2>
 
             <div class="features__line"></div>
         </div>
@@ -219,7 +241,7 @@
                     <img src="./build/img/icon_save.svg" alt="save" class="feature__icon-img">
                 </div>
 
-                <h3 class="feature__title">Soluciones a la Medida y Alta Calidad</h3>
+                <h3 class="feature__title" data-section="features" data-value="item1">Soluciones a la Medida y Alta Calidad</h3>
 
             </div>
 
@@ -228,7 +250,7 @@
                     <img src="./build/img/icon_deliver.svg" alt="discount" class="feature__icon-img">
                 </div>
 
-                <h3 class="feature__title">Entrega en Todo México</h3>
+                <h3 class="feature__title" data-section="features" data-value="item2">Entrega en Todo México</h3>
 
             </div>
 
@@ -237,7 +259,7 @@
                     <img src="./build/img/icon_hands.svg" alt="hands" class="feature__icon-img">
                 </div>
 
-                <h3 class="feature__title">Garantía, Soporte y Flexibilidad</h3>
+                <h3 class="feature__title" data-section="features" data-value="item3">Garantía, Soporte y Flexibilidad</h3>
 
             </div>
 
@@ -249,7 +271,7 @@
     <!-- ======= products ======= -->
     <section class="products" id="productos">
         <div class="products__box">
-            <h2 class="products__heading">Nuestros <span class="products__heading--blue"> Productos</span></h2>
+            <h2 class="products__heading" data-section="products" data-value="heading">Nuestros <span class="products__heading--blue"> Productos</span></h2>
 
             <div class="products__line"></div>
         </div>
@@ -264,7 +286,7 @@
                     </picture>
 
                     <div class="product__info">
-                        <h3 class="product__title">Oficinas Moviles</h3>
+                        <h3 class="product__title" data-section="products" data-value="office">Oficinas Moviles</h3>
     
                         <i class="fa-solid fa-chevron-up product__arrow"></i>
                     </div>
@@ -283,7 +305,7 @@
                     
     
                     <div class="product__info">
-                        <h3 class="product__title">Dormitorios Moviles</h3>
+                        <h3 class="product__title" data-section="products" data-value="dorm">Dormitorios Moviles</h3>
     
                         <i class="fa-solid fa-chevron-up product__arrow"></i>
                     </div>
@@ -302,7 +324,7 @@
                     
     
                     <div class="product__info">
-                        <h3 class="product__title">Edificios Prefabricados</h3>
+                        <h3 class="product__title" data-section="products" data-value="buildings">Edificios Prefabricados</h3>
     
                         <i class="fa-solid fa-chevron-up product__arrow"></i>
                     </div>
@@ -321,7 +343,7 @@
                     
     
                     <div class="product__info">
-                        <h3 class="product__title">Contenedores (Dumpster)</h3>
+                        <h3 class="product__title" data-section="products" data-value="containers">Contenedores (Dumpster)</h3>
     
                         <i class="fa-solid fa-chevron-up product__arrow"></i>
                     </div>
@@ -331,14 +353,14 @@
         </div>
 
         <div class="products__button">
-            <a href="#contacto" class="products__button-link">¡Cotiza ahora tú proyecto!</a>
+            <a href="#contacto" class="products__button-link" data-section="products" data-value="cta">¡Cotiza ahora tú proyecto!</a>
         </div>
     </section>
 
     <!-- ======= reviews ======= -->
     <section class="testimoniales" id="testimoniales">    
         <div class="testimoniales__box">
-            <h2 class="testimoniales__heading">Lo que nuestros <span class="testimoniales__heading--blue">Clientes</span> dicen</h2>
+            <h2 class="testimoniales__heading" data-section="testimonials" data-value="heading">Lo que nuestros <span class="testimoniales__heading--blue">Clientes dicen</span></h2>
 
             <div class="testimoniales__line"></div>
         </div>
@@ -354,7 +376,7 @@
                     <i class="fa-solid fa-star testimoniales__item-star"></i>
                 </div>
 
-                <p class="testimoniales__item-text">
+                <p class="testimoniales__item-text" data-section="testimonials" data-value="review1.text">
                     "Gracias a la flexibilidad y rapidez de entrega de las oficinas móviles, pudimos iniciar nuestro proyecto de construcción sin retrasos. La calidad y confort de las oficinas hizo que nuestro equipo se sintiera cómodo durante los meses de trabajo. ¡Totalmente recomendados!"
                 </p>
 
@@ -362,7 +384,7 @@
 
                 <p class="testimoniales__item-author">
                     Juan Martínez
-                    <span class="testimoniales__item-author-subtitle">Empresario en Construcción</span>
+                    <span class="testimoniales__item-author-subtitle" data-section="testimonials" data-value="review1.role">Empresario en Construcción</span>
                 </p>
             </div>
 
@@ -375,7 +397,7 @@
                     <i class="fa-solid fa-star testimoniales__item-star"></i>
                 </div>
 
-                <p class="testimoniales__item-text">
+                <p class="testimoniales__item-text" data-section="testimonials" data-value="review2.text">
                     "Necesitábamos oficinas móviles para organizar un evento en una locación remota. La adaptabilidad de los espacios a nuestras necesidades, desde el aire acondicionado hasta el diseño, fue excelente. El servicio al cliente fue excepcional y la instalación fue en tiempo récord."
                 </p>
 
@@ -383,7 +405,7 @@
 
                 <p class="testimoniales__item-author">
                     Laura Sánchez 
-                    <span class="testimoniales__item-author-subtitle">Gerente de Evento</span>
+                    <span class="testimoniales__item-author-subtitle" data-section="testimonials" data-value="review2.role">Gerente de Evento</span>
                 </p>
             </div>
 
@@ -396,7 +418,7 @@
                     <i class="fa-solid fa-star testimoniales__item-star"></i>
                 </div>
 
-                <p class="testimoniales__item-text">
+                <p class="testimoniales__item-text" data-section="testimonials" data-value="review3.text">
                     "Las oficinas móviles que rentamos para nuestro equipo de trabajo en el campo fueron de gran ayuda. Estábamos buscando una opción práctica, funcional y económica. No solo cubrieron nuestras expectativas, sino que el soporte post-venta ha sido increíble."
                 </p>
 
@@ -404,7 +426,7 @@
 
                 <p class="testimoniales__item-author">
                     Carlos Gómez 
-                    <span class="testimoniales__item-author-subtitle">Dueño de Negocio en el Sector Minero</span>
+                    <span class="testimoniales__item-author-subtitle" data-section="testimonials" data-value="review3.role">Dueño de Negocio en el Sector Minero</span>
                 </p>
             </div>
         </div>
@@ -418,33 +440,33 @@
 
         <div class="contact__content">
             <div class="contact__box">
-                <h2 class="contact__heading">Aquí estamos para ti,<br><span class="contact__heading--yellow"> ¡Contactanos!</span></h2>
+                <h2 class="contact__heading" data-section="contact" data-value="heading">Aquí estamos para ti,<br><span class="contact__heading--yellow"> ¡Contactanos!</span></h2>
     
                 <!-- <div class="contact__line"></div> -->
     
-                <p class="contact__subtitle">¿Tienes alguna duda sobre nuestros servicios ó solo quieres hablar? 
+                <p class="contact__subtitle" data-section="contact" data-value="subtitle">¿Tienes alguna duda sobre nuestros servicios ó solo quieres hablar? 
                      <br> <span class="contact__subtitle--bold">¡Mandanos un mensaje ó llámanos ahora para ayudarte!</span></p>    
             </div>
     
             <div class="contact__grid contenedor">
                 <div class="contact__item">
-                    <h3 class="contact__title">Ubicación</h3>
+                    <h3 class="contact__title" data-section="contact" data-value="location">Ubicación</h3>
     
-                    <p class="contact__text">Chihuahua, Chih.</p>
+                    <p class="contact__text" >Chihuahua, Chih.</p>
                 </div>
     
     
                 <div class="contact__item">
-                    <h3 class="contact__title">Contactanos</h3>
+                    <h3 class="contact__title" data-section="contact" data-value="contact">Contactanos</h3>
     
-                    <p class="contact__text contact__text--bold">¡Llamanos ahora!</p>
+                    <p class="contact__text contact__text--bold" data-section="contact" data-value="call">¡Llamanos ahora!</p>
                     <a class="contact__text" href="tel: +54 614 243 1521">+54 (614) 243 1521</a>
                     <a class="contact__text" href="tel: +1 720 903 5410">+1 (720) 903 5410</a> 
                 </div>
     
     
                 <div class="contact__item">
-                    <h3 class="contact__title">Siguenos</h3>
+                    <h3 class="contact__title" data-section="contact" data-value="follow">Siguenos</h3>
     
                     <div class="contact__redes-sociales-grid">
                         <a class="contact__redes-sociales-link" href="index.html#home" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -462,7 +484,7 @@
 
     <!-- ======= footer ======= -->
     <footer class="footer" id="footer">
-        <div class="footer__text">
+        <div class="footer__text" data-section="footer" data-value="text" >
             Movil ACH Oficinas Móviles © <span id="year"></span> - Todos los derechos reservados  
         </div>
     </footer>

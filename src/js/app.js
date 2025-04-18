@@ -77,7 +77,27 @@ const changeLanguages = async (language) => {
     for (const textToChange of textsToChange) {
         const section = textToChange.dataset.section;
         const value = textToChange.dataset.value;
-        textToChange.innerHTML = texts[section][value];
+        
+        /* textToChange.innerHTML = texts[section][value]; */
+
+        let keys = value.split('.');
+        let translation = texts[section];
+
+        for (const key of keys) {
+            if (translation && key in translation) {
+                translation = translation[key];
+            } else {
+                translation = undefined;
+                break;
+            }
+        }
+
+        if (translation !== undefined) {
+            textToChange.innerHTML = translation;
+        } else {
+            console.warn(`⚠️ Traducción no encontrada para ${section}.${value}`);
+        }
+
     }
 };
 

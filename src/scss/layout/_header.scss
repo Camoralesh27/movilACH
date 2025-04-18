@@ -3,6 +3,13 @@
 
 .header {
     box-shadow: v.$box-shadow;
+    
+    /*! POSITION STICKY */
+    /* position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: v.$white-transparent; */
 
     @include m.phone {
         box-shadow: none;
@@ -20,6 +27,16 @@
 
         @include m.phone {
             flex-direction: column;
+        }
+
+        &-right {
+            display: flex;
+
+            @include m.phone {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
         }
     }
 
@@ -47,7 +64,6 @@
     &__info-phone-number {
         color: v.$white;
     }
-
 
 }
 

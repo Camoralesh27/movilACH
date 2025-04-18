@@ -120,8 +120,10 @@ export function dev() {
     watch('src/scss/**/*.scss', css)
     watch('src/js/**/*.js', js)
     watch('src/img/**/*.{png,jpg}', imagenes)
+    watch('src/img/*.svg', svg)
+    watch('src/languages/*.json', languages)
 }
 
 /* export default series (crop, js, css, svg, languages, imagenes, dev) */
-export default series(js, css, svg, imagenes, dev)
+export default series(js, css, svg, languages, imagenes, dev)
 /* export default series(js, css, dev) */
