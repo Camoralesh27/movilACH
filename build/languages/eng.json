@@ -8,7 +8,7 @@
     "nav": {
       "home": "Home",
       "about": "About Us",
-      "products": "Products",
+      "products": "Products <i class='bi bi-caret-down-fill'></i>",
       "products1": "Mobile Offices",
       "products2": "Mobile Dormitories",
       "products3": "Prefabricated Buildings",
