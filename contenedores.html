@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" type="image/png" href="./build/img/icon.png">
 
     <!-- -- Titulo -- -->
-    <title data-section="title" data-value="title">Móvil ACH | Venta de contenedores dumpsters en México</title>
+    <title data-section="contenedores" data-value="title">Móvil ACH | Venta de Contenedores Dumpsters en México</title>
 
     <!-- -- Descripcion -- -->
     <meta name="description" content="Venta de contenedores tipo dumpster, contenedores para construcción y contenedores para residuos en México. Fabricamos soluciones resistentes y funcionales para obras, industria y limpieza. Envíos a toda la República. Calidad y precio garantizados.">
@@ -57,7 +57,7 @@
         <div class="header__info">
             <div class="header__info-location">
                 <i class="fa-solid fa-envelope"></i>
-                <p class="header__info-location-text">ventas@movilach.com</p>
+                <div class="header__info-location-text">ventas@movilach.com</div>
             </div>
 
 
@@ -185,10 +185,10 @@
     <main class="hero-contenedores">
         <div class="hero__overlay"></div>
         <div class="hero__content">
-            <h1 class="hero__title">VENTA DE <span class="hero--yellow"> CONTENEDORES </span>A TÚ MEDIDA</h1>
+            <h1 class="hero__title" data-section="contenedores" data-value="hero.title">VENTA DE <span class="hero--yellow"> CONTENEDORES </span>A TÚ MEDIDA</h1>
             <div class="hero__line"></div>
-            <p class="hero__subtitle">Contenedores diseñados para las necesidades de tú trabajo</p>
-            <a href="#contacto" class="hero__button">¡Contacta a un asesor! <i class="bi bi-arrow-right"></i></a>
+            <div class="hero__subtitle" data-section="contenedores" data-value="hero.subtitle">Contenedores diseñados para las necesidades de tú trabajo</div>
+            <a href="#contacto" class="hero__button" data-section="contenedores" data-value="hero.cta">¡Contacta a un asesor! <i class="bi bi-arrow-right"></i></a>
         </div>
     </main>
 
@@ -196,13 +196,13 @@
     <section class="nosotros" id="nosotros">
         <div class="nosotros__grid">
             <div class="nosotros__box">
-                    <h2 class="nosotros__heading">Venta de 
+                    <h2 class="nosotros__heading" data-section="contenedores" data-value="about.title">Venta de 
                         <span class="nosotros--blue">contenedores (Dumpsters) </span>en México</h2>
                     <div class="nosotros__line"></div>
             </div>
     
             <div class="nosotros__contenido">
-                <p class="nosotros__text">
+                <div class="nosotros__text" data-section="contenedores" data-value="about.text">
                     Diseñados para ofrecer durabilidad, funcionalidad y facilidad de manejo en cualquier tipo de entorno. Ya sea en proyectos de construcción, remodelaciones, limpieza industrial o recolección de residuos comerciales, nuestros contenedores tipo dumpster son la solución práctica y resistente que necesitas.
 
                     <br>
@@ -226,7 +226,7 @@
                     
                     
                     
-                    </p>
+                    </div>
     
             </div>
         </div>
@@ -237,7 +237,7 @@
     <!-- ======= Gallery ======= -->
     <section class="gallery contenedor" id="gallery">
         <div class="gallery__box">
-            <h2 class="gallery__heading">Galería</h2>
+            <h2 class="gallery__heading" data-section="gallery" data-value="title">Galería</h2>
 
             <div class="gallery__line"></div>
         </div>
@@ -294,7 +294,7 @@
         </div>     
         
 
-        <a href="#contacto" class="hero__button">¡Contactanos! <i class="bi bi-arrow-right"></i></a>
+        <a href="#contacto" class="hero__button" data-section="gallery" data-value="cta">¡Contactanos! <i class="bi bi-arrow-right"></i></a>
     </section>
     
 
@@ -302,7 +302,7 @@
 
     <!-- ======= footer ======= -->
     <footer class="footer" id="footer">
-        <div class="footer__text">
+        <div class="footer__text" data-section="footer" data-value="text">
             Movil ACH Oficinas Móviles © <span id="year"></span> - Todos los derechos reservados  
         </div>
     </footer>
