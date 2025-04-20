@@ -58,14 +58,14 @@ const setLanguage = (language) => {
 
 // Escuchar el cambio de checkbox y actualizar idioma
 flagsElement.addEventListener('change', (e) => {
-    let language = e.target.checked ? 'esp' : 'eng';
+    let language = e.target.checked ? 'eng' : 'esp';
     setLanguage(language);
 });
 
 // Cargar el idioma guardado al cargar la página
 document.addEventListener("DOMContentLoaded", () => {
-    let savedLanguage = localStorage.getItem('selectedLanguage') || 'eng'; // Idioma predeterminado: inglés
-    flagsElement.checked = savedLanguage === 'esp';
+    let savedLanguage = localStorage.getItem('selectedLanguage') || 'esp'; // Idioma predeterminado: inglés
+    flagsElement.checked = savedLanguage === 'eng';
     setLanguage(savedLanguage);
 });
 

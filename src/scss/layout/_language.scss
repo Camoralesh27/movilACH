@@ -48,13 +48,14 @@
 }
 
 .esp {
-    margin-top: 0%;
-    opacity: 1;
+    
+    margin-top: -150%;
+    opacity: 0;
 }
 
 .eng {
-    margin-top: -150%;
-    opacity: 0;
+    margin-top: 0%;
+    opacity: 1;
 }
 
 .language__circle,
@@ -84,13 +85,14 @@ input[type=checkbox]:checked + .language__display label .language__circle {
 }
 
 input[type=checkbox]:checked + .language__display label .language__circle .esp {
-    margin-top: 150%;
-    opacity: 0;
+    
+    margin-top: 0%;
+    opacity: 1;
 }
 
 input[type=checkbox]:checked + .language__display label .language__circle .eng {
-    margin-top: 0%;
-    opacity: 1;
+    margin-top: 150%;
+    opacity: 0;
 }
 
 /* label:active .circle{
