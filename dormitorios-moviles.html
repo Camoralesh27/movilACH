@@ -58,13 +58,35 @@
         <div class="header__info">
             <div class="header__info-location">
                 <i class="fa-solid fa-envelope"></i>
-                <p class="header__info-location-text">info@movilach.com</p>
+                <p class="header__info-location-text">ventas@movilach.com</p>
             </div>
 
-            <div class="header__info-phone">
-                <i class="fas fa-phone"></i>
-                <span class="header__info-phone-text"><span>¡Llamanos ahora!</span> <a class="header__info-phone-number" href="tel: +54 614 243 1521">614 243 1521</a> </span>
+
+            <div class="header__info-right">
+                <div class="header__info-phone">
+                    <i class="fas fa-phone"></i>
+                    <span class="header__info-phone-text"><span data-section="header" data-value="call">¡Llamanos ahora!</span> <a class="header__info-phone-number" href="tel: +54 614 243 1521">614 243 1521</a> </span>
+                </div>
+
+
+                <!-- Change language -->
+                <div>
+                    <input type="checkbox" class="language" name="flags" id="flags" data-language="eng">
+
+                    <div class="language__display">
+                        <label class="language__container" for="flags">
+                            <div class="language__circle">
+                                <img class="language__img esp" src="./build/img/mexFlag.png" alt="Mexico Flag">
+
+                                <img class="language__img eng" src="./build/img/usFlag.png" alt="US Flag">
+                            </div>
+                        </label>
+                    </div>
+                </div>
             </div>
+
+
+
         </div>    
     </header>
 
@@ -78,25 +100,25 @@
         </div>
 
         <ul class="nav__links">
-            <li class="nav__links-item"><a href="index.html#home" class="nav__links-link">Inicio</a></li>
-            <li class="nav__links-item"><a href="index.html#nosotros" class="nav__links-link">Nosotros</a></li>
+            <li class="nav__links-item"><a href="index.html#home" class="nav__links-link" data-section="nav" data-value="home">Inicio</a></li>
+            <li class="nav__links-item"><a href="index.html#nosotros" class="nav__links-link" data-section="nav" data-value="about">Nosotros</a></li>
             <li class="nav__links-item nav__links-dropdown">
-                <a href="index.html#productos" class="nav__links-link">
+                <a href="index.html#productos" class="nav__links-link" data-section="nav" data-value="products">
                     Productos <i class="bi bi-caret-down-fill"></i>
                 </a>
                 <ul class="nav__dropdown-menu">
-                    <li><a href="oficinas-moviles.html">Oficinas Móviles</a></li>
-                    <li><a href="dormitorios-moviles.html">Dormitorios Móviles</a></li>
-                    <li><a href="edificios-prefabricados.html">Edificios Prefabricados</a></li>
-                    <li><a href="contenedores.html">Contenedores</a></li>
+                    <li><a href="oficinas-moviles.html" data-section="nav" data-value="products1">Oficinas Móviles</a></li>
+                    <li><a href="dormitorios-moviles.html" data-section="nav" data-value="products2">Dormitorios Móviles</a></li>
+                    <li><a href="edificios-prefabricados.html" data-section="nav" data-value="products3">Edificios Prefabricados</a></li>
+                    <li><a href="contenedores.html" data-section="nav" data-value="products4">Contenedores</a></li>
                 </ul>
             </li>
             
-            <li class="nav__links-item"><a href="index.html#testimoniales" class="nav__links-link">Reseñas</a></li>
-            <li class="nav__links-item"><a href="index.html#contacto" class="nav__links-link">Contacto</a></li>
+            <li class="nav__links-item"><a href="index.html#testimoniales" class="nav__links-link" data-section="nav" data-value="testimonials">Reseñas</a></li>
+            <li class="nav__links-item"><a href="index.html#contacto" class="nav__links-link" data-section="nav" data-value="contact">Contacto</a></li>
         </ul>
 
-        <a href="index.html#contacto" class="nav__button">
+        <a href="index.html#contacto" class="nav__button" data-section="nav" data-value="cta">
             ¡Estimación GRATIS!
 
             <i class="bi bi-arrow-right"></i>
@@ -120,31 +142,31 @@
         <nav class="navM__menu" id="navM-menu">
             <ul class="navM__list">
                 <li class="navM__item">
-                    <a href="index.html#home" class="navM__link">Inicio</a>
+                    <a href="index.html#home" class="navM__link" data-section="nav" data-value="home">Inicio</a>
                 </li>
 
                 <li class="navM__item">
-                    <a href="index.html#nosotros" class="navM__link">Nosotros</a>
+                    <a href="index.html#nosotros" class="navM__link" data-section="nav" data-value="about">Nosotros</a>
                 </li>
 
                 <li class="navM__item navM__dropdown">
-                    <button class="navM__link navM__dropdown-toggle">
+                    <button class="navM__link navM__dropdown-toggle" data-section="nav" data-value="products">
                         Productos <i class="fa-solid fa-caret-down"></i>
                     </button>
                     <ul class="navM__dropdown-menu">
-                        <li><a href="oficinas-moviles.html" class="navM__link">Oficinas Móviles</a></li>
-                        <li><a href="dormitorios-moviles.html" class="navM__link">Dormitorios Móviles</a></li>
-                        <li><a href="edificios-prefabricados.html" class="navM__link">Edificios Prefabricados</a></li>
-                        <li><a href="contenedores.html" class="navM__link">Contenedores</a></li>
+                        <li><a href="oficinas-moviles.html" class="navM__link" data-section="nav" data-value="products1">Oficinas Móviles</a></li>
+                        <li><a href="dormitorios-moviles.html" class="navM__link" data-section="nav" data-value="products2">Dormitorios Móviles</a></li>
+                        <li><a href="edificios-prefabricados.html" class="navM__link" data-section="nav" data-value="products3">Edificios Prefabricados</a></li>
+                        <li><a href="contenedores.html" class="navM__link" data-section="nav" data-value="products4">Contenedores</a></li>
                     </ul>
                 </li>
 
                 <li class="navM__item">
-                    <a href="index.html#testimoniales" class="navM__link">Reseñas</a>
+                    <a href="index.html#testimoniales" class="navM__link" data-section="nav" data-value="testimonials">Reseñas</a>
                 </li>
 
                 <li class="navM__item">
-                    <a href="index.html#contacto" class="navM__link">Contacto</a>
+                    <a href="index.html#contacto" class="navM__link" data-section="nav" data-value="contact">Contacto</a>
                 </li>
 
                 <li class="navM__item">

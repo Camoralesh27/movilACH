@@ -70,6 +70,23 @@
     },
     "footer": {
       "text": "Móvil ACH Mobile Offices © <span id='year'></span> - All rights reserved"
+    },
+    "gallery": {
+        "title": "Galery",
+        "cta": "Contact us! <i class='bi bi-arrow-right'></i>"
+    },
+    "oficinas-moviles": {
+      "title": "Móvil ACH | Mobile Office Sales in Mexico",
+      "hero": {
+          "title": "Sale of <span class='hero--yellow'>Mobile Offices</span>",
+          "subtitle": "Mobile offices designed for the needs of your project",
+          "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
+      },
+      "about": {
+          "title": "Sale of <span class='nosotros--blue'>Mobile Offices</span> in Mexico",
+          "text": "<p>Designed to provide comfort, safety, and functionality in any location. Whether for construction projects, events, mining, or any industry that requires temporary workspaces, our mobile offices are the ideal solution.</p><br><br><b>Features of Our Mobile Offices:</b><ul><li>✅ Versatile Design: Spaces adaptable to your needs, from executive offices to meeting rooms and administrative modules.</li><li>✅ Durable Construction: Built with high-quality materials, ideal for withstanding Chihuahua's weather conditions.</li><li>✅ Fully Equipped: Available with air conditioning, lighting, electrical installations, and furniture according to your requirements.</li><li>✅ Easy Transport and Installation: Ready-to-use solution at any point in the state.</li><li>✅ Guaranteed Safety: Options with reinforced locks and protected windows.</li></ul>"
+      }
     }
+
   }
   

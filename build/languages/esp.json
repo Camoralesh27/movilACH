@@ -70,5 +70,21 @@
     },
     "footer": {
         "text": "Movil ACH Oficinas Móviles © <span id='year'></span> - Todos los derechos reservados"
+    },
+    "gallery": {
+        "title": "Galería",
+        "cta": "¡Contactanos! <i class='bi bi-arrow-right'></i>"
+    },
+    "oficinas-moviles": {
+        "title": "Móvil ACH | Venta de Oficinas Móviles en México",
+        "hero": {
+            "title": "Venta de <span class='hero--yellow'> Oficinas Móviles</span>",
+            "subtitle": "Oficinas móviles diseñadas para las necesidades de tú proyecto",
+            "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
+        },
+        "about": {
+            "title": "Venta de <span class='nosotros--blue'>Oficinas Móviles </span>en México",
+            "text": "<p>Diseñadas para brindar comodidad, seguridad y funcionalidad en cualquier ubicación. Ya sea para proyectos de construcción, eventos, minería o cualquier industria que requiera espacios de trabajo temporales, nuestras oficinas móviles son la solución ideal.</p><br><br><b>Características de Nuestras Oficinas Móviles:</b><ul><li>✅ Diseño Versátil: Espacios adaptables a tus necesidades, desde oficinas ejecutivas hasta salas de reuniones y módulos administrativos.</li><li>✅ Construcción Resistente: Fabricadas con materiales de alta calidad, ideales para soportar las condiciones climáticas de Chihuahua.</li><li>✅ Equipamiento Completo: Disponibles con aire acondicionado, iluminación, instalaciones eléctricas y mobiliario según tus requerimientos.</li><li>✅ Fácil Transporte e Instalación: Solución lista para usar en cualquier punto del estado.</li><li>✅ Seguridad Garantizada: Opciones con cerraduras reforzadas y ventanas con protecciones.</li></ul>"
+        }
     }
 }
