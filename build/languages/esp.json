@@ -13,6 +13,7 @@
         "products2": "Dormitorios Móviles",
         "products3": "Edificios Prefabricados",
         "products4": "Contenedores",
+        "products5": "Remolques",
         "testimonials": "Reseñas",
         "contact": "Contacto",
         "cta": "¡Estimación GRATIS!"
@@ -40,6 +41,8 @@
         "dorm": "Dormitorios Moviles",
         "buildings": "Edificios Prefabricados",
         "containers": "Contenedores (Dumpster)",
+        "trailers": "Remolques",
+        "solar": "Paneles Solares",
         "cta": "¡Cotiza ahora tú proyecto!"
     },
     "testimonials": {
@@ -112,16 +115,28 @@
     }
     },
     "contenedores": {
-  "title": "Móvil ACH | Venta de Contenedores Dumpsters en México",
-  "hero": {
-    "title": "VENTA DE <span class='hero--yellow'> CONTENEDORES </span>A TÚ MEDIDA",
-    "subtitle": "Contenedores diseñados para las necesidades de tú trabajo",
-    "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
-  },
-  "about": {
-    "title": "Venta de <span class='nosotros--blue'>contenedores (Dumpsters) </span>en México",
-    "text": "<p>Diseñados para ofrecer durabilidad, funcionalidad y facilidad de manejo en cualquier tipo de entorno. Ya sea en proyectos de construcción, remodelaciones, limpieza industrial o recolección de residuos comerciales, nuestros contenedores tipo dumpster son la solución práctica y resistente que necesitas.</p><br><br><b>Características de Nuestros Dumpsters:</b><ul><li>✅ <b>Alta Resistencia:</b> Fabricados con acero de calibre industrial, soportan residuos pesados y uso rudo continuo.</li><li>✅ <b>Capacidades Variadas:</b> Disponibles en diferentes tamaños para adaptarse al volumen de tu proyecto.</li><li>✅ <b>Fácil Carga y Descarga:</b> Diseñados para un manejo eficiente con sistemas de gancho o rodillo, compatibles con camiones estándar.</li><li>✅ <b>Pintura Anticorrosiva:</b> Protección contra el óxido, ideal para climas extremos como el de Chihuahua.</li></ul>"
-  }
+        "title": "Móvil ACH | Venta de Contenedores Dumpsters en México",
+        "hero": {
+            "title": "VENTA DE <span class='hero--yellow'> CONTENEDORES </span>A TÚ MEDIDA",
+            "subtitle": "Contenedores diseñados para las necesidades de tú trabajo",
+            "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
+        },
+        "about": {
+            "title": "Venta de <span class='nosotros--blue'>contenedores (Dumpsters) </span>en México",
+            "text": "<p>Diseñados para ofrecer durabilidad, funcionalidad y facilidad de manejo en cualquier tipo de entorno. Ya sea en proyectos de construcción, remodelaciones, limpieza industrial o recolección de residuos comerciales, nuestros contenedores tipo dumpster son la solución práctica y resistente que necesitas.</p><br><br><b>Características de Nuestros Dumpsters:</b><ul><li>✅ <b>Alta Resistencia:</b> Fabricados con acero de calibre industrial, soportan residuos pesados y uso rudo continuo.</li><li>✅ <b>Capacidades Variadas:</b> Disponibles en diferentes tamaños para adaptarse al volumen de tu proyecto.</li><li>✅ <b>Fácil Carga y Descarga:</b> Diseñados para un manejo eficiente con sistemas de gancho o rodillo, compatibles con camiones estándar.</li><li>✅ <b>Pintura Anticorrosiva:</b> Protección contra el óxido, ideal para climas extremos como el de Chihuahua.</li></ul>"
+        }
+    },
+    "remolques": {
+        "title": "Móvil ACH | Venta de Trailas en México",
+        "hero": {
+            "title": "VENTA DE <span class='hero--yellow'> TRAILAS </span>A TÚ MEDIDA en México",
+            "subtitle": "Trailas diseñadas para las necesidades de tú trabajo",
+            "cta": "¡Contacta a un asesor! <i class='bi bi-arrow-right'></i>"
+        },
+        "about": {
+            "title": "Venta de <span class='nosotros--blue'>Trailas </span>en México",
+            "text": "<p>Remolques diseñados para resistir las condiciones más exigentes, con estructuras reforzadas y funcionalidad superior. Nuestras trailas son ideales para transportar maquinaria, materiales de construcción, herramientas ó mercancía en general. Fabricamos cada remolque a medida, asegurando que se adapte perfectamente a tus necesidades de carga y maniobrabilidad.</p><br><br><b>Características de Nuestras Trailas:</b><ul><li>✅ <b>Estructura Reforzada:</b> Chasis soldado con precisión, ideales para trabajo pesado y uso diario.</li><li>✅ <b>Doble Eje:</b> Mayor estabilidad y capacidad de carga, perfectas para trayectos largos o terrenos irregulares.</li><li>✅ <b>Fabricación Personalizada:</b> Adaptamos el diseño a las medidas, tipo de carga y necesidades específicas del cliente.</li><li>✅ <b>Acabado de Alta Durabilidad:</b> Pintura anticorrosiva y acabados resistentes al clima extremo y al desgaste.</li><li>✅ <b>Seguridad y Maniobrabilidad:</b> Equipadas con sistema de luces, frenos y enganche compatible con la mayoría de los vehículos.</li></ul></div>"
+        }
     }
 
 }

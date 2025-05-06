@@ -13,6 +13,7 @@
       "products2": "Mobile Dormitories",
       "products3": "Prefabricated Buildings",
       "products4": "Containers",
+      "products5": "Trailers",
       "testimonials": "Testimonials",
       "contact": "Contact",
       "cta": "FREE Estimate!"
@@ -40,6 +41,8 @@
       "dorm": "Mobile Dormitories",
       "buildings": "Prefabricated Buildings",
       "containers": "Containers (Dumpster)",
+      "trailers": "Trailers",
+      "solar": "Solar Panels",
       "cta": "Get a quote for your project!"
     },
     "testimonials": {
@@ -112,19 +115,28 @@
       }
     },
     "contenedores": {
-  "title": "Móvil ACH | Sale of Dumpster Containers in Mexico",
-  "hero": {
-    "title": "SALE OF <span class='hero--yellow'> CONTAINERS </span>TAILORED TO YOU",
-    "subtitle": "Containers designed for the needs of your work",
-    "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
-  },
-  "about": {
-    "title": "Sale of <span class='nosotros--blue'>Dumpster Containers</span> in Mexico",
-    "text": "<p>Designed to offer durability, functionality, and ease of handling in any type of environment. Whether for construction projects, renovations, industrial cleaning, or commercial waste collection, our dumpster-style containers are the practical and tough solution you need.</p><br><br><b>Features of Our Dumpsters:</b><ul><li>✅ <b>High Resistance:</b> Made from industrial-grade steel, they withstand heavy waste and continuous rough use.</li><li>✅ <b>Varied Capacities:</b> Available in different sizes to suit your project's volume.</li><li>✅ <b>Easy Loading and Unloading:</b> Designed for efficient handling with hook or roller systems, compatible with standard trucks.</li><li>✅ <b>Anti-Corrosive Paint:</b> Protection against rust, ideal for extreme climates like Chihuahua.</li></ul>"
-  }
-}
-
-
-
+      "title": "Móvil ACH | Sale of Dumpster Containers in Mexico",
+      "hero": {
+        "title": "SALE OF <span class='hero--yellow'> CONTAINERS </span>TAILORED TO YOU",
+        "subtitle": "Containers designed for the needs of your work",
+        "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
+      },
+      "about": {
+          "title": "Sale of <span class='nosotros--blue'>Dumpster Containers</span> in Mexico",
+          "text": "<p>Designed to offer durability, functionality, and ease of handling in any type of environment. Whether for construction projects, renovations, industrial cleaning, or commercial waste collection, our dumpster-style containers are the practical and tough solution you need.</p><br><br><b>Features of Our Dumpsters:</b><ul><li>✅ <b>High Resistance:</b> Made from industrial-grade steel, they withstand heavy waste and continuous rough use.</li><li>✅ <b>Varied Capacities:</b> Available in different sizes to suit your project's volume.</li><li>✅ <b>Easy Loading and Unloading:</b> Designed for efficient handling with hook or roller systems, compatible with standard trucks.</li><li>✅ <b>Anti-Corrosive Paint:</b> Protection against rust, ideal for extreme climates like Chihuahua.</li></ul>"
+      }
+    },
+    "remolques": {
+      "title": "Móvil ACH | Trailer Sales in Mexico",
+      "hero": {
+          "title": "CUSTOM <span class='hero--yellow'> TRAILERS </span>FOR SALE in Mexico",
+          "subtitle": "Trailers designed for your job's specific needs",
+          "cta": "Contact an advisor! <i class='bi bi-arrow-right'></i>"
+      },
+      "about": {
+          "title": "Custom <span class='nosotros--blue'>Trailer </span>Sales in Mexico",
+          "text": "<p>Trailers built to withstand the toughest conditions, with reinforced structures and superior functionality. Our trailers are ideal for transporting machinery, construction materials, tools, or general goods. Each trailer is custom-built to perfectly match your load capacity and maneuverability needs.</p><br><br><b>Features of Our Trailers:</b><ul><li>✅ <b>Reinforced Structure:</b> Precisely welded chassis, ideal for heavy-duty and daily use.</li><li>✅ <b>Dual Axle:</b> Greater stability and load capacity, perfect for long hauls or rough terrain.</li><li>✅ <b>Custom Fabrication:</b> We tailor the design to the client's specific dimensions, cargo type, and needs.</li><li>✅ <b>High-Durability Finish:</b> Anti-corrosion paint and finishes resistant to harsh weather and wear.</li><li>✅ <b>Safety and Maneuverability:</b> Equipped with lighting system, brakes, and hitch compatible with most vehicles.</li></ul></div>"
+        }
+    }
   }
   
