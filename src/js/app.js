@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Toma el JSON y modifica el idioma
 const changeLanguages = async (language) => {
-    const requestJson = await fetch(`./build/languages/${language}.json`);
+    const requestJson = await fetch(`./languages/${language}.json`);
     const texts = await requestJson.json();
 
     for (const textToChange of textsToChange) {

@@ -1,6 +1,8 @@
 import path from 'path'
 import fs from 'fs'
 import { glob } from 'glob'
+import fileInclude from 'gulp-file-include'
+
 
 import { src, dest, watch, series } from 'gulp'
 import * as sass from 'sass'  // Directamente importamos 'sass' ahora
@@ -38,6 +40,23 @@ export function css(done) {
 
     done();
 }
+
+export function html(done) { //compila el html por componentes 'file-include'
+    src(['src/*.html'])
+        .pipe(fileInclude({
+            prefix: '@@',
+            basepath: '@file'
+        }))
+        .pipe(dest('build'))
+    done()
+}
+
+export function staticFiles(done) {
+    src('src/robots.txt').pipe(dest('build'));
+    src('src/sitemap.xml').pipe(dest('build'));
+    done();
+}
+
 
 export async function crop(done) {
     const inputFolder = 'src/img/gallery/full'
@@ -122,8 +141,11 @@ export function dev() {
     watch('src/img/**/*.{png,jpg}', imagenes)
     watch('src/img/*.svg', svg)
     watch('src/languages/*.json', languages)
+    watch('src/**/*.html', html)
+    watch('src/*.{txt,xml,json,ico}', staticFiles)
+
 }
 
-/* export default series (crop, js, css, svg, languages, imagenes, dev) */
-export default series(js, css, svg, languages, imagenes, dev)
+/* export default series (crop, js, css, svg, languages, imagenes, html, dev) */
+export default series(js, css, svg, languages, imagenes, html, staticFiles, dev)
 /* export default series(js, css, dev) */
